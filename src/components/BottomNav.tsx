@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Page } from '../types';
-import { HomeIcon, CalendarIcon, UsersIcon, ChartBarIcon } from './icons';
+import { HomeIcon, CalendarIcon, UsersIcon, ChartBarIcon, MessageSquareIcon } from './icons';
 
 interface BottomNavProps {
   currentPage: Page;
@@ -11,6 +11,7 @@ const navItems: { page: Page; label: string; icon: React.ReactNode }[] = [
   { page: 'consejo', label: 'Home', icon: <HomeIcon /> },
   { page: 'agenda', label: 'Agenda', icon: <CalendarIcon /> },
   { page: 'clientes', label: 'Clientes', icon: <UsersIcon /> },
+  { page: 'asesor', label: 'Asesor IA', icon: <MessageSquareIcon /> },
   { page: 'ventas', label: 'Ventas', icon: <ChartBarIcon /> },
 ];
 
