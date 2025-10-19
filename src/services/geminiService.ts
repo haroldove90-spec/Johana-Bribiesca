@@ -1,6 +1,6 @@
 import { GoogleGenAI, Chat, Type, Modality } from "@google/genai";
 
-// Fix: Initialize GoogleGenAI with API Key from environment variables.
+// Fix: Initialize GoogleGenAI with API Key from environment variables as per guidelines.
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 /**
