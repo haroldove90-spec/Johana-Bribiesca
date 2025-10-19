@@ -1,0 +1,7 @@
+{
+  "name": "Johana Bribiesca Tattoo Studio",
+  "description": "An all-in-one AI-powered application for tattoo artist Johana Bribiesca, featuring design generation, virtual try-ons, client management, and expert advice.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
